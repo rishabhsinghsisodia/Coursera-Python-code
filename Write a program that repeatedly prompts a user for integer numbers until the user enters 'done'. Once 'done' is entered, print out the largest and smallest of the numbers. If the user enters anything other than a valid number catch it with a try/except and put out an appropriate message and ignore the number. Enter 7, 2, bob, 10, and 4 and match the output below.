@@ -1,0 +1,14 @@
+a=list()
+while(True):
+    x=input("")
+    if(x=="done"):
+        break
+    try:
+        y=int(x)
+        a.append(y)
+    except:
+        print("Invalid input")
+print("Maximum is",max(a))
+print("Minimum is",min(a))
+      
+  
